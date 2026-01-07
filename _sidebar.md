@@ -1,2 +1,3 @@
-テスト表示
 * [ホーム](README.md)
+* [キャラクター](characters.md)
+* [世界観](world.md)
