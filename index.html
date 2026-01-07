@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>The Darkside of the Rainbow - Archive</title>
+  <title>DoR Archive</title>
   <meta name="robots" content="noindex, nofollow">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 </head>
@@ -11,9 +11,11 @@
   <script>
     window.$docsify = {
       name: 'DoR Archive',
-      repo: '',
       loadSidebar: true, // サイドバーを使用
-      subMaxLevel: 2
+      // 以下のalias（エイリアス）設定が「真の解決策」です
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
